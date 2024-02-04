@@ -7,7 +7,7 @@ from telnyx.api_resources.abstract import (
     UpdateableAPIResource,
     nested_resource_class_methods,
 )
-from telnyx.six.moves.urllib.parse import quote_plus
+from six.moves.urllib.parse import quote_plus
 
 
 @nested_resource_class_methods(

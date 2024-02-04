@@ -8,6 +8,7 @@ telnyx = {path = ".", editable = true}
 PyNaCl = "*"
 isort = "*"
 pylint = "*"
+six = "*"
 
 [dev-packages]
 pytest = ">=4"
